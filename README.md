@@ -10,6 +10,8 @@ The CNN model is deployed through an interactive website and is able to take a p
 
 
 
+
+
 https://github.com/user-attachments/assets/5563a6d1-6a6b-4b52-8441-d2741c8b506c
 
 

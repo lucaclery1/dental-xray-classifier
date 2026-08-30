@@ -20,7 +20,7 @@ project aims:
 - deploy best model (CNN) through a publicly available website.
 
 ## Dataset Information:
-This project uses the DentIRO: A High-Quality Multi-Class Single-Tooth Intraoral Radiograph Dataset for Automated Dental Diagnosis.
+This project uses the [DentIRO dataset](https://doi.org/10.6084/m9.figshare.32086377).
 Dataset contains 5300 labelled intraoral radiograph images
 all images with the label "caries" were excluded from the project as initial tests showed that they could not reliably be identified as they contain minor differences to healthy teeth.
 

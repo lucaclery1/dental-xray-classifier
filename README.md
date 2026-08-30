@@ -1,4 +1,5 @@
-# dental-xray-classifier
+# dental-xray-classifier 
+[Open the Dental X-ray Classifier](https://dental-xray-classifier.streamlit.app/)
 This is a machine learning project that classifies periapical dental xrays into:
 Healthy, Crowned or Root canal.
 This project compares a logistic regression model with a convolutional neural network (CNN) model. 

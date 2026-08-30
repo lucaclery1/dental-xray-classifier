@@ -76,7 +76,7 @@ CNN model incorrectly classified 27 of the 701 test images
 
 ## website instructions:
 
-- open [DentIRO dataset](https://doi.org/10.6084/m9.figshare.32086377)  in web browser
+- open [Open the Dental X-ray Classifier](https://dental-xray-classifier.streamlit.app/) in web browser
 - Upload PNG, JPG or JPEG of dental xray
 - press classify image button to classify image using CNN model
 - view predicted class and observe softmax scores

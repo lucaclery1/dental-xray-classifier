@@ -2,7 +2,7 @@
 This is a machine learning project that classifies periapical dental xrays into:
 Healthy, Crowned or Root canal.
 This project compares a logistic regression model with a convolutional neural network (CNN) model. 
-The CNN model is deployed through an interactive website and is able to take a periapical xray of a tooth as input and returns softmax percentages for each class. 
+The CNN model is deployed through an [interactive website](https://dental-xray-classifier.streamlit.app/) and is able to take a periapical xray of a tooth as input and returns softmax percentages for each class. 
 ## Website example screenshots and live demo video:
 <img width="1512" height="982" alt="Screenshot 2026-08-30 at 12 46 10" src="https://github.com/user-attachments/assets/b38518cf-684e-4ee0-8c67-e235a423b54c" />
 <img width="1512" height="982" alt="Screenshot 2026-08-30 at 12 45 00" src="https://github.com/user-attachments/assets/93eddb15-211d-4f2e-8e43-c37e88111cd4" />

@@ -2,7 +2,7 @@
 This is a machine learning project that classifies periapical dental xrays into:
 Healthy, Crowned or Root canal.
 This project compares a logistic regression model with a convolutional neural network (CNN) model. 
-The CNN model is deployed through an interactive website and is able to take a periapical xray of a tooth as input and returns probability percentages for each class. 
+The CNN model is deployed through an interactive website and is able to take a periapical xray of a tooth as input and returns softmax percentages for each class. 
 ## Website example screenshots and live demo video:
 <img width="1512" height="982" alt="Screenshot 2026-08-30 at 12 46 10" src="https://github.com/user-attachments/assets/b38518cf-684e-4ee0-8c67-e235a423b54c" />
 <img width="1512" height="982" alt="Screenshot 2026-08-30 at 12 45 00" src="https://github.com/user-attachments/assets/93eddb15-211d-4f2e-8e43-c37e88111cd4" />
@@ -32,10 +32,12 @@ dataset class split:
 - crowned: 779 images
 - root canal: 2431 images
 
-dataset test/valid/test split:
+dataset test/validation/test split:
 - train: 3296 images
 - validation: 697 images
 - test: 703 images
+
+dataset was split by `patient_id` so images from the same patient are not in different dataset partitions
 
 Preprocessing process:
 - convert to greyscale
@@ -56,7 +58,7 @@ To make CNN model:
 - early stopping
 - batches of 32 images
 
-## results
+## Results
 
 CNN clearly outperforms the logistic regression model
 
@@ -70,11 +72,11 @@ CNN results:
 - Balanced accuracy: 95.6%
 - Macro F1 score: 95.5%
 
-CNN model incorrectly classified 27 images of the 701 test images
+CNN model incorrectly classified 27 of the 701 test images
 
 ## website instructions:
 
-- open https://dental-xray-classifier.streamlit.app in web browser
+- open [DentIRO dataset](https://doi.org/10.6084/m9.figshare.32086377)  in web browser
 - Upload PNG, JPG or JPEG of dental xray
 - press classify image button to classify image using CNN model
 - view predicted class and observe softmax scores

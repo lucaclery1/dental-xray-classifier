@@ -80,19 +80,18 @@ if image_source == "Try an example":
 
     if example_path.is_file():
         image_input = example_path
-        image_caption = f"Example X-ray — dataset label: {example_label}"
+        image_caption = f"Example Xray - dataset label: {example_label}"
     else:
         st.error(
             "This example image is unavailable. "
-            "You can still upload your own X-ray."
+            "You can still upload your own Xray."
         )
 
     st.caption(
         "Examples from DentIRO by Md. Mehedi Hasan Shoib et al. "
         "([dataset](https://doi.org/10.6084/m9.figshare.32086377), "
         "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). "
-        "These images come from the project dataset and illustrate how the app works; "
-        "they are not a separate evaluation of the model."
+        "These images come from the project dataset and illustrate how the app works. "
     )
 
 
